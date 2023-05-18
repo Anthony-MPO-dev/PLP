@@ -1,0 +1,9 @@
+--Prototipacao de funcoes
+soma:: Int -> Int -> Int
+
+par :: Int -> Bool
+
+-- Funcoes
+soma x y = x + y 
+
+par x = if mod x 2 == 0 then True else False
